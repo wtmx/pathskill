@@ -34,7 +34,7 @@ export default function SkillInputPage() {
     "Hold a 10-second handstand",
     "Cook a classic French omelette",
     "Start a successful podcast",
-    "Play the \"Stairway to Heaven\" guitar solo",
+    "Play the &apos;Stairway to Heaven&apos; guitar solo",
     "Speak basic Spanish"
   ]
 
@@ -106,9 +106,9 @@ export default function SkillInputPage() {
         "Implement effective marketing and growth strategies"
       ]
     },
-    "Play the \"Stairway to Heaven\" guitar solo": {
-      title: "Guitar Solo Mastery: \"Stairway to Heaven\"",
-      overview: "Dive deep into one of rock's most iconic guitar solos. This course breaks down the \"Stairway to Heaven\" solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page's legendary performance.",
+    "Play the &apos;Stairway to Heaven&apos; guitar solo": {
+      title: "Guitar Solo Mastery: &apos;Stairway to Heaven&apos;",
+      overview: "Dive deep into one of rock's most iconic guitar solos. This course breaks down the &apos;Stairway to Heaven&apos; solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page's legendary performance.",
       duration: "12 Hours",
       lessons: 50,
       projects: 3,
@@ -228,7 +228,7 @@ export default function SkillInputPage() {
               type="text"
               value={skill}
               onChange={(e) => setSkill(e.target.value)}
-              placeholder="Enter a specific skill (e.g., handstand)"
+              placeholder="Enter a specific skill (e.g., &apos;handstand&apos;)"
               className="bg-gray-800 text-white border-gray-700 focus:border-blue-500"
             />
             {error && <p className="text-red-500 mt-2">{error}</p>}
