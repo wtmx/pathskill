@@ -34,14 +34,14 @@ export default function SkillInputPage() {
     "Hold a 10-second handstand",
     "Cook a classic French omelette",
     "Start a successful podcast",
-    "Play the &apos;Stairway to Heaven&apos; guitar solo",
+    "Play the 'Stairway to Heaven' guitar solo",
     "Speak basic Spanish"
   ]
 
   const courseContent = {
     "Hold a 10-second handstand": {
       title: "Handstand Introductory Course",
-      overview: "In this course, you'll build a strong foundation in handstand techniques, progressing from basic drills to mastering the skill of holding a handstand for 10 seconds. You'll practice strength, balance, and coordination through structured exercises and real-world applications.",
+      overview: "In this course, you will build a strong foundation in handstand techniques, progressing from basic drills to mastering the skill of holding a handstand for 10 seconds. You'll practice strength, balance, and coordination through structured exercises and real-world applications.",
       duration: "10 Hours",
       lessons: 45,
       projects: 3,
@@ -106,9 +106,9 @@ export default function SkillInputPage() {
         "Implement effective marketing and growth strategies"
       ]
     },
-    "Play the &apos;Stairway to Heaven&apos; guitar solo": {
-      title: "Guitar Solo Mastery: &apos;Stairway to Heaven&apos;",
-      overview: "Dive deep into one of rock's most iconic guitar solos. This course breaks down the &apos;Stairway to Heaven&apos; solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page's legendary performance.",
+    "Play the 'Stairway to Heaven' guitar solo": {
+      title: "Guitar Solo Mastery: 'Stairway to Heaven'",
+      overview: "Dive deep into one of rock's most iconic guitar solos. This course breaks down the 'Stairway to Heaven' solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page's legendary performance.",
       duration: "12 Hours",
       lessons: 50,
       projects: 3,
@@ -228,7 +228,7 @@ export default function SkillInputPage() {
               type="text"
               value={skill}
               onChange={(e) => setSkill(e.target.value)}
-              placeholder="Enter a specific skill (e.g., &apos;handstand&apos;)"
+              placeholder="Enter a specific skill (e.g. handstand)"
               className="bg-gray-800 text-white border-gray-700 focus:border-blue-500"
             />
             {error && <p className="text-red-500 mt-2">{error}</p>}
@@ -322,7 +322,7 @@ export default function SkillInputPage() {
             {/* Skills You'll Learn */}
             <Card className="md:col-span-2 bg-gray-800">
               <CardHeader>
-                <CardTitle>Skills You'll Learn</CardTitle>
+                <CardTitle>Skills You&apos;ll Learn</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="grid grid-cols-2 gap-2">

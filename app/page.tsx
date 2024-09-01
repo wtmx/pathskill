@@ -49,7 +49,7 @@ export default function Home() {
             <span className="text-blue-400">Path</span>Skill
           </h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            PathSkill is a dynamic learning platform designed to guide you through a personalized journey of mastering any skill. With curated milestones and tailored resources, we empower you to achieve your goals, whether you&apos;re picking up a new hobby or advancing your professional expertise.
+            PathSkill is a dynamic learning platform designed to guide you through a personalized journey of mastering any skill. With curated milestones and tailored resources, we empower you to achieve your goals, whether you're picking up a new hobby or advancing your professional expertise.
           </p>
           <div className="flex justify-center space-x-4 mb-12">
             <Button size="lg" className="bg-blue-400 text-gray-900 hover:bg-blue-500">
