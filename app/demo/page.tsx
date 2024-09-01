@@ -34,14 +34,14 @@ export default function SkillInputPage() {
     "Hold a 10-second handstand",
     "Cook a classic French omelette",
     "Start a successful podcast",
-    "Play the 'Stairway to Heaven' guitar solo",
+    "Play the \u2018Stairway to Heaven\u2019 guitar solo",
     "Speak basic Spanish"
   ]
 
   const courseContent = {
     "Hold a 10-second handstand": {
       title: "Handstand Introductory Course",
-      overview: "In this course, you will build a strong foundation in handstand techniques, progressing from basic drills to mastering the skill of holding a handstand for 10 seconds. You'll practice strength, balance, and coordination through structured exercises and real-world applications.",
+      overview: "In this course, you will build a strong foundation in handstand techniques, progressing from basic drills to mastering the skill of holding a handstand for 10 seconds. You\u2019ll practice strength, balance, and coordination through structured exercises and real-world applications.",
       duration: "10 Hours",
       lessons: 45,
       projects: 3,
@@ -85,7 +85,7 @@ export default function SkillInputPage() {
     },
     "Start a successful podcast": {
       title: "Launch Your Own Successful Podcast",
-      overview: "This comprehensive course guides you through every step of creating, launching, and growing a successful podcast. From concept development to marketing strategies, you'll learn how to produce engaging content and build a loyal audience.",
+      overview: "This comprehensive course guides you through every step of creating, launching, and growing a successful podcast. From concept development to marketing strategies, you\u2019ll learn how to produce engaging content and build a loyal audience.",
       duration: "15 Hours",
       lessons: 60,
       projects: 4,
@@ -106,9 +106,9 @@ export default function SkillInputPage() {
         "Implement effective marketing and growth strategies"
       ]
     },
-    "Play the 'Stairway to Heaven' guitar solo": {
-      title: "Guitar Solo Mastery: 'Stairway to Heaven'",
-      overview: "Dive deep into one of rock's most iconic guitar solos. This course breaks down the 'Stairway to Heaven' solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page's legendary performance.",
+    "Play the \u2018Stairway to Heaven\u2019 guitar solo": {
+      title: "Guitar Solo Mastery: \u2018Stairway to Heaven\u2019",
+      overview: "Dive deep into one of rock\u2019s most iconic guitar solos. This course breaks down the \u2018Stairway to Heaven\u2019 solo into manageable sections, teaching you the techniques, theory, and nuances behind Jimmy Page\u2019s legendary performance.",
       duration: "12 Hours",
       lessons: 50,
       projects: 3,
@@ -125,7 +125,7 @@ export default function SkillInputPage() {
         "Understand music theory applied to solos",
         "Develop speed, accuracy, and expression",
         "Memorize and perform complex solo sections",
-        "Recreate Jimmy Page's iconic tone and style"
+        "Recreate Jimmy Page\u2019s iconic tone and style"
       ]
     },
     "Speak basic Spanish": {
@@ -319,7 +319,7 @@ export default function SkillInputPage() {
               </CardContent>
             </Card>
 
-            {/* Skills You'll Learn */}
+            {/* Skills You&apos;ll Learn */}
             <Card className="md:col-span-2 bg-gray-800">
               <CardHeader>
                 <CardTitle>Skills You&apos;ll Learn</CardTitle>
